@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>new_patch_images</folder>
+  <filename>newship05013021</filename>
+  <path>newship05013021.xml</path> 
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>256</width>
+    <height>256</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>ship</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <Difficult>0</Difficult>
+    <bndbox>
+      <xmin>244</xmin>
+      <ymin>188</ymin>
+      <xmax>253</xmax>
+      <ymax>202</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>cal_db_5</folder>
+  <filename>ship_hh_02018031467050201</filename>
+  <path>Gao_ship_hh_02018031467050201.xml</path> 
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>256</width>
+    <height>256</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>ship</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <Difficult>0</Difficult>
+    <bndbox>
+      <xmin>171</xmin>
+      <ymin>45</ymin>
+      <xmax>256</xmax>
+      <ymax>118</ymax>
+    </bndbox>
+  </object>
+</annotation>

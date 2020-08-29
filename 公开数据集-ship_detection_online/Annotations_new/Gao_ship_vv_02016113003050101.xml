@@ -1,0 +1,26 @@
+<annotation verified="yes">
+  <folder>intensity_5</folder>
+  <filename>ship02016113003050101</filename>
+  <path>Gao_ship_vv_02016113003050101.xml</path> 
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>256</width>
+    <height>256</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>ship</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <Difficult>0</Difficult>
+    <bndbox>
+      <xmin>97</xmin>
+      <ymin>144</ymin>
+      <xmax>142</xmax>
+      <ymax>256</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>image_HH_1</folder>
+  <filename>ship_hh_0201702275501038024</filename>
+  <path>Gao_ship_hv_0201702275501038024.xml</path> 
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>256</width>
+    <height>256</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>ship</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <Difficult>0</Difficult>
+    <bndbox>
+      <xmin>161</xmin>
+      <ymin>11</ymin>
+      <xmax>183</xmax>
+      <ymax>27</ymax>
+    </bndbox>
+  </object>
+</annotation>

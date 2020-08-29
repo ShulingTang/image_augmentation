@@ -1,0 +1,26 @@
+<annotation>
+	<folder>split_all_images</folder>
+	<filename>ship_vh_020161130030201606.jpg</filename>
+  <path>Gao_ship_vh_020161130030201606.xml</path> 
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>256</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ship</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>24</xmin>
+			<ymin>220</ymin>
+			<xmax>47</xmax>
+			<ymax>252</ymax>
+		</bndbox>
+	</object>
+</annotation>
