@@ -12,16 +12,7 @@ from pretreatment import *
 
 ia.seed(1)
 
-def read_txt_annotation(root, image_id):
-    in_file = open(os.path.join(root, image_id))
-    # a = in_file.read()
-    bndboxlist = []
-    for line in in_file.readlines():
-        print(line)
-        line = line.strip()
-        bndbox = list(map(int, line.split()))
-        bndboxlist.append(bndbox)
-    return bndboxlist
+
 
 
 if __name__ == "__main__":

@@ -25,7 +25,7 @@ def json_to_xml(json_path,xml_path):
         with open(os.path.join(json_path,file), 'r') as load_f:
             load_dict = json.load(load_f)
         json_result = jsonToXml(load_dict)
-        f = open(os.path.join(xml_path,file_list[0]+".xml"), 'w', encoding="UTF-8")
+        f = open(os.path.join(xml_path, file_list[0]+".xml"), 'w', encoding="UTF-8")
         f.write(json_result)
         f.close()
 

@@ -66,6 +66,16 @@ def change_xml_list_annotation(root, image_id, new_target, saveroot, id):
 
     tree.write(os.path.join(saveroot, str(image_id) + "_aug_" + str(id) + '.xml'))
 
+def read_txt_annotation(root, image_id):
+    in_file = open(os.path.join(root, image_id))
+    # a = in_file.read()
+    bndboxlist = []
+    for line in in_file.readlines():
+        print(line)
+        line = line.strip()
+        bndbox = list(map(int, line.split()))
+        bndboxlist.append(bndbox)
+    return bndboxlist
 
 def read_xml_annotation(root, image_id):
     in_file = open(os.path.join(root, image_id))
