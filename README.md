@@ -1,13 +1,9 @@
 @[TOC](使用imgaug图像数据增强库对影像上多个Bounding Boxes进行增强)
 
 # 简介
-该项目主要目的水通过imgaug来对图片进行数据增强
+该项目主要目的通过imgaug来对图片进行数据增强
 
 作者：[ShulingTang]()
-
-该做工为在[项目](https://github.com/mickkky/Dataset-Augment)基础上，新增了对图片对其他处理，包括，修改图片大小，装换标签格式等。计划会加上光斑，则遮照等处理。
-
-
 
 [代码](https://github.com/ShulingTang/images-Augment.git)
 ## 结构
