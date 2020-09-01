@@ -14,7 +14,5 @@ if __name__ == '__main__':
             path = os.path.join(root, str(name))
             with open(path, 'r') as load_f:
                 json_load = json.load(load_f)
-            img_name = json_load['images']
+            # img_name = json_load['images']
             img_annotation = json_load['annotations']
-            for item in img_name:
-                print([item])

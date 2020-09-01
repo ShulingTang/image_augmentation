@@ -95,8 +95,10 @@ if __name__ == "__main__":
                 # image_auged = bbs.draw_on_image(image_aug, thickness=0)
                 Image.fromarray(image_aug).save(path)
 
+                # 存储变化后对TXT
+                change_txt_list_annotation(name[:-4], new_bndbox_list, AUG_TXT_DIR, epoch)
                 # 存储变化后的XML
-                change_xml_list_annotation(XML_DIR, name[:-4], new_bndbox_list, AUG_XML_DIR, epoch)
+                # change_xml_list_annotation(XML_DIR, name[:-4], new_bndbox_list, AUG_XML_DIR, epoch)
                 print(str(name[:-4]) + "_aug_" + str(epoch) + '.jpg')
                 new_bndbox_list = []
 
